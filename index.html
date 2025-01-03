@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- External stylesheet and favicon -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="calculator.png">
+</head>
+
+<body>
+    <!-- Main calculator container -->
+    <div class="calculator">
+        <!-- Memory display section -->
+        <div class="memory-display">Memory: 0</div>
+        <!-- Calculator display area -->
+        <div class="display">
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
+        </div>
+        <!-- Memory operation buttons -->
+        <div class="memory-buttons">
+            <button class="memory-button">MC</button> <!-- Memory Clear -->
+            <button class="memory-button">MR</button> <!-- Memory Recall -->
+            <button class="memory-button">M+</button> <!-- Memory Add -->
+            <button class="memory-button">M-</button> <!-- Memory Subtract -->
+        </div>
+        <!-- Calculator buttons grid -->
+        <div class="buttons">
+            <!-- Control buttons -->
+            <button class="clear span-two">AC</button> <!-- All Clear -->
+            <button class="delete">DEL</button> <!-- Delete -->
+            <!-- Function buttons -->
+            <button class="function-button">√</button> <!-- Square root -->
+            <button class="function-button">%</button> <!-- Percentage -->
+            <button class="function-button">x²</button> <!-- Square -->
+            <button class="function-button">1/x</button> <!-- Reciprocal -->
+            <!-- Operators and numbers -->
+            <button class="operator">÷</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">×</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator">-</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator">+</button>
+            <button class="number span-two">0</button>
+            <button class="number">.</button>
+            <button class="equals">=</button>
+        </div>
+    </div>
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
